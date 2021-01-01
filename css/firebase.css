@@ -1,0 +1,265 @@
+body{
+    font-family: "Roboto",sans-serif;
+}
+#headerBlock .navbar{
+    background-color: #fff !important;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 2px 6px 2px rgba(60,64,67,.15);
+}
+#headerBlock .navbar .navbar-brand img{
+width: 116px;
+}
+#headerBlock .navbar .navbar-brand{
+    margin-right: 50px;
+}
+#headerBlock .navbar .nav-link{
+    color: #5f6368;
+    font-size: 14px;
+    font-weight: bold;
+}
+#headerBlock nav{
+    padding: 0px 20px;
+}
+#headerBlock nav .nav-link{
+    padding: 15px 20px;
+}
+#headerBlock nav .nav-link:hover{
+    border-bottom: 3px solid #5f6368;
+}
+#headerBlock nav input{
+    border: none;
+    padding: 0px 0px 0px 34px;
+}
+
+.position-absolute{
+    position: absolute !important;
+    top: 15px;
+    left: 10px;
+    color: #888;
+}
+.dropdown button{
+    margin: 10px;
+    border: 1px solid #eee;
+    font-size: 13px;
+    font-weight: bold;
+    color: #444;
+    padding: 6px 20px;
+}
+
+.rightmenuwithblue:hover{
+background-color: rgb(231, 249, 255);
+border: none !important;
+padding: 10px !important;
+border-radius: 6px;
+margin: 8px;
+
+}
+
+.btncustom-hero{
+    background-color: #fff;
+    padding: 12px 60px;
+    border-radius: 10px;
+    color: #039be5;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.3px;
+}
+.btncustom-video{
+    padding: 10px 30px;
+    background: transparent;
+    color: #fff;
+    font-weight: bold;
+}
+.btncustom-video:hover{
+    background-color: rgb(231, 249, 255);
+    transition: ease-in-out all 0.7s;
+}
+.hero_image{
+max-width: 100%;
+
+/* transform: scale(1.7);
+position: absolute;
+right: 12%;
+margin: 0px -58px;
+top: 40%;
+padding-left: 20%;
+background-image: url(../img/lookup.png); */
+
+}
+.herodiv{
+
+}
+#sliderBlock , #buildappSection, #platformBlock{
+    background-color: #039be5;
+    height: 100%;
+    padding: 50px;
+}
+.hero_h1{
+
+    font-size: 50px;
+}
+
+#sliderBlock header{
+    margin: 80px 0px 40px 0px;
+}
+.jumbotron{
+    margin: 0;
+}
+#buildappSection .container{
+    background: #fff;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+#buildappSection h2{
+font-size: 19px;
+font-weight: bold;
+color: #424242;
+padding: 40px 40px 0px 40px;
+}
+#buildappSection p{
+    font-size: 15px;
+    color: #757575;
+    padding: 10px 40px 10px 40px;
+    }
+
+    #buildappSection .card{
+       padding:  ;
+    }
+
+    #platformBlock .card img{
+        width: 200px;
+        margin: 0 auto;
+    }
+    #platformBlock .container{
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 7px;
+    }
+    #platformBlock .container header{
+        padding: 50px 0;
+    }
+    #platformBlock .container header h1{
+        color: #424242;
+        letter-spacing: 1.7px;
+    }
+    #platformBlock .container .card-title{
+        font-size: 20px;
+        font-weight: bold;columns: #424242;
+        padding: 30px 30px;
+        letter-spacing: 1.3px;-
+    }
+    #platformBlock .card, .list-group-item{
+        border: none;
+    }
+    #platformBlock .card-text{
+        padding: 10px 30px;
+    }
+    #platformBlock .list-group-item{
+        display: flex;
+    }
+    #platformBlock .list-group-item aside i{
+        background-color: #ffca28;
+        font-size: 20px;
+        color: #fff;
+        padding: 20px;
+        border-radius: 100%;
+        margin: 20px;
+        height: 60px;
+        width: 60px;
+    }
+
+    #platformBlock .second-card-group aside i{
+        background-color:#f4b751;
+        font-size: 20px;
+        color: #fff;
+        padding: 20px;
+        border-radius: 100%;
+        margin: 20px;
+        height: 60px;
+        width: 60px;
+    }
+    #platformBlock .third-card-group aside i{
+        background-color:#ee8663;
+        font-size: 20px;
+        color: #fff;
+        padding: 20px;
+        border-radius: 100%;
+        margin: 20px;
+        height: 60px;
+        width: 60px;
+    }
+    #platformBlock .list-group-item main h5{
+        font-size: 17px;
+        font-weight: bold;
+        margin: 20px 0 0;
+        color: #424242;
+    }
+    #platformBlock .list-group-item main p{
+        font-size: 13px;
+        font-weight: normal;
+        margin: 0 0;
+        color: #757575;
+    }
+  
+   #extensionBlock header h2{
+       font-size: 42px;
+       color: #212529;
+       letter-spacing: 1.5px;
+       padding-bottom: 20px;
+   }
+   #extensionBlock header sup{
+       color: #039be5 !important;
+      font-size: 20px;
+      position: relative;
+      top: -17px;
+      font-weight: bolder;
+   }
+   #extensionBlock img{
+       width: 75px;
+       padding-bottom: 20px;
+   }
+   #extensionBlock footer .button{
+       padding-top: 50px;
+       
+
+   }
+   #extensionBlock footer .button .btn{
+    background-color: #429ce5;
+    border: none;
+    font-size: 19px;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 14px 60px;
+
+   }
+
+
+   #integration header h2{
+    font-size: 35px;
+    color: #212529;
+    letter-spacing: 1.5px;
+    padding-bottom: 20px;
+}
+
+#integration footer .button{
+    padding-top: 50px;  
+
+}
+#integration .iconBlock{
+    display: flex;
+}
+#integration .iconBlock img{
+    width: 65px;
+    padding-bottom: 17px;
+}
+#integration .iconBlock div{
+    padding: 20px;
+}
+
+
+#footericonBlock img{
+    width: 150px;
+    height: 130px;
+    padding-bottom: 15px;
+    align-items: center;
+}
